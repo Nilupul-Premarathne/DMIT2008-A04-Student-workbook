@@ -39,6 +39,16 @@ const expenses = {
     this.publish("update", result);
   },
 
+  // When working with logic in multiple places, you can just make a skeleton first
+  // and implement details later!
+  removeExpense(id) {
+
+  },
+
+  editExpense() {  // I'll hold off on inputs for now.
+
+  },
+
   clear() {
     this.list = [];
     this.publish("update", this.list);
